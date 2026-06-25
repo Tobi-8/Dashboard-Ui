@@ -2,7 +2,7 @@
 :root {
   --bg-color: #eef2f6;
   --xsm-text: 14px;
-  --sm-text: 16px;
+  --sm-text: 16px;  
   --md-text: 24px;
   --lg-text: 30px;
   --xl-text: 36px;
@@ -29,6 +29,7 @@ body {
 .body-overlay {
   display: flex;
   font-family: inter, sans-serif;
+  height: 100vh;
   
 }
 
@@ -91,6 +92,10 @@ body {
 .sidebar .sidebar-body-area {
   padding: var(--padding-small);
   overflow-y: scroll;
+}
+
+.sidebar .sidebar-body-area::-webkit-scrollbar{
+  display: none;
 }
 
 /* THE INLINE CLASS  */
@@ -346,22 +351,6 @@ padding: 0 10px;
   height: 2px;
   background-color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .header .input-box {
   border: none;
@@ -851,6 +840,9 @@ width: auto;
   gap: 32px;
   overflow-y: scroll;
 }
+.upcoming-events-section .event-body::-webkit-scrollbar {
+  display: none;
+}
 .event-body .event-box {
   display: flex;
   justify-content: space-between;
@@ -958,6 +950,7 @@ width: auto;
   /* background-color: yellow; */
   position: relative;
 }
+
 .dropdown .dot-section {
   display: flex;
   flex-direction: column;
@@ -1020,6 +1013,11 @@ width: auto;
   height: 500px;
   overflow-y: scroll;
 }
+
+.notice-board-section .notice-board-body::-webkit-scrollbar{
+  display: none;
+}
+
 .notice-board-body .notice-box {
   display: flex;
   align-items: flex-start;
@@ -1083,7 +1081,9 @@ width: auto;
   height: 500px;
   overflow-y: scroll;
 }
-
+.leave-requests-section .leave-request-body::-webkit-scrollbar {
+  display: none;
+}
 .leave-request-body .leave-box {
   display: flex;
   justify-content: space-between;
