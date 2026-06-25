@@ -1789,6 +1789,7 @@ display: grid;
     padding: 16px 0;
   }
   .header .hamburger-menu{
+    padding-left: 20px;
     display: flex;
   }
   .header .input-box{
