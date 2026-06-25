@@ -1073,7 +1073,7 @@ width: auto;
 
 /* LEAVE REQUEST BODY  */
 .leave-requests-section .leave-request-body {
-  padding: 20px 10px 0px 10px;
+  padding: 20px 25px 0px 10px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
